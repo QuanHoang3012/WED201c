@@ -1,0 +1,78 @@
+img {
+    width: 100%;
+}
+.logo-sound img {
+    width: 120px;
+    height: 100px;
+    margin: 20px  700px; 
+}
+#banner{
+    padding: 0px;
+}
+#banner img {
+    width: 100%;
+}
+/* best seller */
+
+#best-seller-head h2 {
+    text-align: center;
+}
+.product {
+    border: 15px solid #D6CBCB;
+    position: relative;
+}
+.product-text h5 {
+    padding-top: 7px;
+    bottom: -15px;
+    left: -15px;
+    right: -15px;
+    position: absolute;
+    margin-bottom: 0px;
+    background-color:rgb(210, 189, 189,0.5);
+    color: white;
+}
+#best-seller-img img {
+    width: 100%;
+
+     
+}
+#best-seller-img h5 {
+    margin-top: -31px;
+}
+
+
+/* sale off */
+h2 {
+    text-align: center;
+    margin: 40px 0px;
+}
+#sale {
+    width: 100%;
+}
+.item-sale img {
+    width: 100%;
+}
+.itemSale-text  {
+    background-color: #D8D1D1;
+    padding:1px 0px;
+}
+.itemSale-text p:first-child {
+    border-bottom: 2px solid black;
+}
+.item-sale span {
+    font-weight: bold;
+}
+/* showroom */
+
+.gg-map {
+    width: 100%;
+    height: 30em;
+}
+/* footer */
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}

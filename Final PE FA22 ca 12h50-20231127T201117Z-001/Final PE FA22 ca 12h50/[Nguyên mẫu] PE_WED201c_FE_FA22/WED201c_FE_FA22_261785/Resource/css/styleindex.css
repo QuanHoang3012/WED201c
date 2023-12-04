@@ -1,0 +1,105 @@
+.header {
+    margin-bottom: 50px;
+}
+.header #logo {
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+}
+.header #nav-menu a {
+    color :rgb(13, 207, 207)
+}
+.header #nav-menu {
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.header #search {
+    margin-top: 30px;
+}
+/* content */
+#list-favorite {
+    background-color: rgb(200, 235, 235);
+    margin-top: 25px;
+ 
+}
+#list-favorite > h3{
+    color: orange;
+    border-bottom: 5px solid aqua;
+    padding-left: 0px;
+    padding-top: 10px;
+}
+#list-favorite img {
+    width: 35%;
+    border-radius: 45%;
+}
+.list-food {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+.list-food h3 {
+ flex-grow: 1;
+ margin-left: 30px;
+}
+ h1 {
+    color: orange;
+}
+ p {
+    line-height: 20px;
+    font-weight: 600;
+}
+#text img {
+   margin-left: 100px;
+}
+#tex-buffet h1 {
+    text-align: center;
+}
+#img-buffet{
+    display: flex;
+    justify-content: center;
+}
+#img-buffet img {
+    text-align: center;
+    padding: 0px;
+    width: 40%; 
+}
+.party-text h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+.party-text p {
+    margin: 10px 20px;
+}
+.party-img {
+    display: flex;
+    justify-content: center;
+}
+.party-img img {
+    width: 80%;
+}
+.footer {
+    background-color: rgb(100, 200, 200);
+    text-align: center;
+    color: white;
+    padding: 15px 0px;
+    margin-top: 20px;
+}
+.header button:first-child{
+    background-color: #09a125;
+}
+.header button:first-child .icon-bar{
+    background-color: #fff;
+}
+@media screen and (max-width : 768px) {
+    p{
+        text-align: left;
+    }
+    #text img {
+        margin-left: 0px;
+        width: 100%;
+     }
+     .footer p {
+        text-align: center;
+     }
+}

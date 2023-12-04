@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    width: 600px;
+    background-color: gray;
+    height: 200px;
+    flex-direction: row;
+    /* điều hướng ngang hoặc dọc*/
+    flex-wrap: wrap;  
+    /* ko đủ thì xuống dòng */
+    justify-content: space-evenly;
+    /* căn chỉnh vị trí ngang */
+
+    align-items: center;
+    /* căn chỉnh theo chiều dọc */
+}
+.item {
+    width: 100px;
+    height: 100px;
+
+}
+.red {
+    background-color: red;
+    order: 2;
+    flex-grow: 1;
+    /* chia lại phần còn thừa theo thứ tự ưu tiên */
+}
+.green {
+    background-color: green;
+    order: 1;
+    flex-basis: 200px;
+    /* như đặt lại width */
+}
+.blue {
+    background-color: blue;
+    order: 3;
+}

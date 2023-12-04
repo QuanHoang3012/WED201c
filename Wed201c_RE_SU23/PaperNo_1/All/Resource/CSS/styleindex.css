@@ -1,0 +1,169 @@
+img {
+    width: 100%;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.menu {
+    order: 1;
+    margin-left: 100px;
+    align-self: center;
+}
+.logo img {
+    width: 50%;
+    margin-left: 0px;
+}
+.logo {
+    order :3;
+    flex-basis: 20%;
+}
+.search {
+    order: 2;
+    float: 30%;
+    align-self: center;
+}
+
+/* banner */
+
+.banner-regis {
+ 
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.banner {
+    flex-basis: 60%;
+}
+.register {
+    flex-basis: 50%;
+}
+
+
+
+.banner-regis img {
+    object-fit: cover;
+    width: 95%;
+
+}
+
+
+
+.register-form h1 {
+    color: orange;
+    text-align: center;
+}
+.register-form  label {
+    color: orange;
+    line-height: 60px;
+}
+
+
+
+.form-item {
+    margin-right: 90px;
+}
+
+
+
+.line {
+    display: flex;
+    justify-content: space-between;
+}
+.line label {
+    margin-right: 30px;
+   text-align: left;
+}
+.line-text {
+    height: 25px;
+    margin-top: 17px;
+    width: 400px;
+}
+.line .select{
+    flex-basis: 406px;
+}
+.line #comment {
+    height: 150px;
+}
+
+
+
+#comment-label {
+    align-self: flex-end;
+}
+.button-form {
+    text-align: center;
+    margin-top: 30px;
+}
+.button-form input {
+    background-color: orange;
+    padding: 10px 3%;
+    border: 0px;
+    color: white;
+} 
+
+/* best-seller */
+
+.best-seller h1 {
+    color: red;
+    text-align: center;
+    margin: 40px 0px;
+}
+ .box-seller{
+    display: flex;
+ }
+ .box-seller img {
+    object-fit: cover;
+    width: 80%;
+    margin-left: 50px;
+    margin-top: 20px;
+ }
+ .seller-text h2{
+    color: aqua;
+ }
+ .seller-text p {
+    line-height: 30px;
+    border-bottom: 1px solid rgb(217, 217, 217);
+ }
+
+ /* accessories*/
+
+ .accessories h1 {
+    color: red;
+    text-align: center;
+    margin: 50px 0px;
+ }
+ .all-product {
+    display: flex;
+    justify-content: center;
+ }
+ .product {
+    display: flex;
+ }
+ .product img {
+    width: 40%;
+    margin-left: 120px;
+ }
+ .product-detail{
+    width: 40%;
+    margin-left: 30px;
+ }
+ .product-detail h3 {
+    margin-top: 0px;
+ }
+ #product-2 img {
+        margin-left: 5px;
+ }
+ .product-detail p {
+    line-height: 25px;
+ }
+
+ /* footer */
+ .footer {
+    background-color: #06A2C8;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-top: 90px;
+ }

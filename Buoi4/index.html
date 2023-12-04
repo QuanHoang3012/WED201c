@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <h1 id="h12"> hihihihi</h1>
+   <h1 id="h11">ahhhdsd</h1>
+   <div class="test">tetst thoi ma</div>
+   <a id="google">Google</a>
+   <script>
+       let h12 = document.getElementById("h12")
+        h12.innerHTML= "ahhiihi do ngoc" // thay đổi giá trị trong html
+        h12.innerHTML ="<a href='#'>Click me</a> ";
+        let google = document.getElementById("google")
+        google.href = "https://www.facebook.com/"
+        google.style.color = "red"
+        let h1 = document.querySelectorAll("h1");
+        h1[1].style.color= "green"
+        // let a= 10;
+        // let b ="hello world";
+        // const PI =3.14 ;
+        // document.writeln(a+b);
+        // console.log("a="+a);
+        // document.writeln(typeof PI );
+        // let c; // undefined
+        // document.writeln(10/0)
+
+ // array
+        // let arr = [1,2,3,4];
+        // arr.push(2);
+        // arr.pop();
+        // arr.shift();
+        // arr.unshift(10);
+        // console.log(arr);
+        let obj = {
+            id :1,
+            name : "quan",
+            "phone number" : "12334"
+        }
+        console.log(obj.name);
+        console.log(obj["phone number"]);
+        // let name =  prompt("nhap vao ten cua ban")
+        // alert("ten cua ban la : "+name)
+        // function print(){
+        //     alert("hello world")
+        // }
+        // print();
+        // function sum(a,b){
+        //     return a+b
+        // }
+        // alert(sum(8,"hihi"));
+        for(let i=0;i<=10;i++){
+            document.writeln(i);
+        }
+        //  setTimeout(() => {
+        //     alert("xin chao cac ban")
+        //  },3000);   
+        // setInterval sau 1 khoangr thoi gian lai lap
+        // setInterval(() => {
+        //     console.log("helo");
+        // }, 1000);
+        // let time =0;
+        //    let id= setInterval(() => {  
+        //         document.writeln(time);
+        //         document.write("<br>")
+        //         if(time >=10 ){
+        //             clearInterval(id)
+        //         }
+        //         time++;
+        //     }, 1000);
+     
+   </script>
+</body>
+</html>

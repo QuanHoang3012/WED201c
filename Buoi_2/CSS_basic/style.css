@@ -1,0 +1,35 @@
+div {
+    color : red;
+   
+}
+.red{
+    background-color: rgba(255,0,0,0.5);
+    max-width: 500px;
+    height: 200px;
+}
+.image {
+    background-image: url('https://thuthuatnhanh.com/wp-content/uploads/2021/11/hinh-anh-chill-dep.jpg');
+    max-width: 1000px;
+    height: 1000px;
+
+}
+.rectangle {
+    width: 500px;
+    height : 100px;
+    border : solid 10px red ;
+    border-radius: 12px;
+}
+.total {
+    font-style: normal;
+    text-align: center;
+    text-decoration: underline ;
+}
+.para {
+    border : solid 5px #aaa ;
+    width : 300px;
+    margin : 10px 0px 0px 0px ;
+    padding : 10px 14px;
+}
+.indent{
+    text-indent: 53px;
+}

@@ -1,0 +1,111 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.menu-logo img {
+    border: 1px solid gray;
+    border-radius: 50%;
+    height: 150px;
+    width: 140px;
+}
+.menu-text {
+    flex-basis: 30%;
+    text-align: center;
+    font-size: 40px;
+    align-self: center;
+    color: #09830C;
+}
+.menu-message {
+    flex-basis: 30%;
+    font-size: 40px;
+    align-self: center;
+    text-align: center;
+    color: #09830C;
+}
+.menu li {
+    list-style-type: none;
+}
+.menu a {
+    text-decoration: none;
+    padding: 10px 40px;
+    background-color: #09830C;
+    color: white;
+}
+.menu ul {
+    display: flex;
+    justify-content: center;
+    background-color: #09830C;
+    padding: 10px;
+    margin: 0px;
+}
+.banner img {
+    width: 100%;
+}
+/*  */
+.content {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.content  .content-img {
+    flex-basis: 50%;
+}
+.content  .content-text {
+    flex-basis: 50%;
+    margin-right: 30px;
+}
+.content-text h2 {
+    color: palevioletred;
+}
+.content-text p {
+    line-height: 30px;
+}
+.content-text li {
+    color: aqua;
+}
+.best-seller h1 {
+    text-align: center;
+    margin: 60px;
+    color: green;
+}
+.product {
+    display: flex;
+}
+.items {
+    display: flex;
+    flex-basis: 25%;
+    flex-direction: column;
+    box-shadow:1px 1px 1px 2px gray;
+    margin: 0px 10px;
+}
+.items img {
+    align-self: center;
+    margin-top: 20px;
+}
+.items h3 {
+    align-self: center;
+    color: green;
+}
+.items p {
+    align-self: center;
+    color: orangered;
+    margin-top: -6px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.items div {
+    align-self: center;
+    background-color: orangered;
+    padding: 20px 10px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.footer {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}

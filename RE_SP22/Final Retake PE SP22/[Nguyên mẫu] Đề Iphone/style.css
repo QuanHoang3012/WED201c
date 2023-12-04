@@ -1,0 +1,119 @@
+
+h1{
+    color: #06A2C8;
+    text-align: center;
+    padding: 30px;
+}    
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+.menu {
+    align-self: center;
+}
+.menu ul {
+    display:flex;
+    list-style-type: none;
+
+}
+.logo {
+    align-self: center;
+}
+.logo img {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 20%;
+    margin-right: 120px;
+}
+.menu a {
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+    font-weight: 900;
+    font-family: Playfair;
+}
+.search {
+    align-self: center;
+}
+.search button {
+    background-color: black;
+    color: white;
+    margin-left: 0px;
+}
+#appleStore {
+    margin-bottom: -5px;
+}
+/*  */
+.list-product {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+.list-header {
+    background-color: #F7681C;
+    color: white;
+    text-align: center;
+}
+.list-content {
+    background: #C4C4C4;
+    margin-top: 0px;
+}
+.list-content ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 0px;
+    list-style-type: circle;
+}
+.list-content li {
+    padding-top: 15px ;
+    padding-bottom: 15px;
+}
+.list-product{
+    width: 20%;
+    margin-right: 40px;
+    margin-top: 0px;
+}
+#list-footer{
+    padding-bottom: 300%;
+}
+.container {
+    display: flex;
+}
+.content {
+    flex: 1;
+}
+
+/*  */
+.paragraph {
+    display: flex;
+    box-shadow : 0px 0px 3px;
+
+}
+.paragraph img {
+    margin: 10px;
+}
+p{
+    line-height: 30px;
+}
+.sale-off img {
+    width: 100%;   
+}
+.item {
+    text-align: center;
+}
+.promote {
+    display: flex;
+    justify-content: space-around;
+}
+.promote .item {
+    box-shadow : 0px 0px 3px;
+    margin: 10px 10px 40px;
+    
+}
+.footer {
+    background-color: rgba(0, 0, 0, 0.632);
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+

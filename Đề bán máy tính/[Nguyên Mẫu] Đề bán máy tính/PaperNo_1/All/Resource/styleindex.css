@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+.head-img  {
+    flex-basis: 40%;
+}
+.head-img img {
+    margin-left: 150px;
+    width: 20%;
+}
+.head-text {
+    align-self: center;
+    color: orange;
+}
+.head-search {
+    align-self: center;
+}
+.head-search button{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+/*banner  */
+.banner{
+    padding-bottom: -20px;
+}
+.banner img {
+    width: 100%;
+    object-fit:contain ;
+}
+/* nav */
+.menu {
+    width: 40%;
+    cursor: pointer;
+    
+}
+.menu ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.menu li {
+    padding: 10px 0px;
+    background-color: #434142;
+}
+.menu .menu-button {
+    background-color: #19BABD;
+}
+.menu .card {
+    background-color: #04A96D;
+}
+.menu .remain {
+    padding-bottom: 1000px;
+}
+/* content */
+.content {
+    display: flex;
+}
+.product h1 {
+    margin: 40px 0px;
+    color: #19BABD;
+    text-align: center;
+}
+.product {
+    flex-grow: 1;
+}
+.product-detail {
+    display: flex;
+    flex-wrap: wrap;
+}
+.product-detail .item {
+    flex-basis: 25%;
+    margin-left: 90px;
+}
+
+.item img {
+    width: 90%;
+    margin-left: 20px;
+}
+.item {
+    border-radius: 2px;
+    margin-bottom: 50px;
+    box-shadow: 1px 1px 2px 2px gray;
+}
+.item-text h4 {
+    text-align: center;
+}
+.item-text p {
+    text-align: center;
+    color: red;
+}
+.item-text del {
+    color:black;
+}
+.item-text .buy-butoon {
+    text-align: center;
+   margin :20px 120px;
+    border: 0px solid orange;
+    background-color: orange;
+    width: 30%;
+    border-radius: 40px;
+    padding: 5px 0px;
+    cursor: pointer;
+}
+.item-text {
+    margin: 50px 0px;
+    line-height: 45px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #19BABD;
+    color: white;
+    padding: 30px;
+}

@@ -1,0 +1,126 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.text {
+    font-family: Ephesis;
+    font-size: 40px;
+    color: #0C7F11;
+   font-weight: 600;
+   width: 600px;
+   flex-shrink: 0;
+   text-align: center;
+}
+.logo img {
+    border: 2px solid green;
+    text-align: center;
+    border-radius: 600px;
+    width: 140px;
+    height: 140px;
+}
+.menu {
+    background-color: #0C7F11;
+}
+.navbar  {
+   display: flex;
+   justify-content: center;
+   list-style-type: none;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+.menu li a {
+    color: azure;
+    text-decoration: none;
+    margin: 10px 50px;
+    display: block;
+}
+.banner{
+    display: flex;
+
+}
+.banner img  {
+    width: 50%;
+    margin-top: 0px;
+}
+.container {
+    display: flex;
+    margin-top: 20px;
+}
+.product img {
+    width: 85%;
+    height: 95%;
+}
+.content {
+    margin-left: -50px;
+  
+}
+.content h2 {
+    color: #E9A1C3;
+    margin-top: 0px;
+}
+.content p {
+  font-weight: 400;
+}
+.content ul{
+    list-style-type: circle;
+}
+.content li {
+    font-family: Ephesis;
+    font-size: 20px;
+    color: #0EC0C3;
+    font-weight: 200;
+}
+.footer {
+    background-color: #0C7F11;
+    text-align: center;
+    color: white;
+    padding: 10px;   
+}
+.order {
+    display: flex;
+    justify-content: center;
+}
+.menu-list {
+    margin: 0 40px;
+}
+.menu-list-header {
+    background-color: #0C7F11;
+    color: white;
+    text-align: center;
+     padding: 10px 50px;
+     margin-bottom: 0px;
+}
+.menu-list-content {
+    background-color: rgb(215, 215, 215);
+    margin: 0px 0px 0px ;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.menu-list-item {
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+}
+
+.menu-list-item-price {
+   margin-right: 10px;
+   color: orange;
+}
+.button {
+   margin: 10px 100px 10px;
+    padding: 3px 20px;
+    border-radius: 15%;
+    color: aliceblue;
+    background-color: orangered;
+    border: 0px;
+    cursor: pointer;
+}
+.menu-list-footer {
+    background-color:orangered ;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: aliceblue;
+    display: none;
+}

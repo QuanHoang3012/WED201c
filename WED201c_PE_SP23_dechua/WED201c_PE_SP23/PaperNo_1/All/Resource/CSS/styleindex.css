@@ -1,0 +1,125 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img {
+    width: 50%;
+    margin-left: 50px;
+}
+.menu ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    
+}
+.menu li a {
+    text-decoration: none;
+    padding: 30px;
+    color: #0EC0C3;
+    font-size: 20px;
+}
+.search button {
+    margin-right: 20px;
+    background-color: black;
+    color: aliceblue;
+}
+.banner {
+    display: flex;
+    margin: 20px 80px;
+}
+.banner img {
+    width: 50%;
+   
+}
+.detail h1 {
+    text-align: center;
+    color: #0EC0C3;
+    font-weight: 700;
+}
+.detail p{
+    line-height: 25px;
+    margin: 10px 15px;
+    color: orange;
+    font-weight: 500;
+}
+.footer {
+    background-color: #06A2C8;
+    padding: 20px;
+    color: white;
+}
+.footer-list {
+    display: flex;
+    justify-content: space-around;
+}
+.contact {
+    align-self: self-start;
+    margin-left: 90px;
+}
+.service {
+    align-self: self-start;
+    margin-right: 82px;
+}
+.copyright{
+    text-align: center;
+    
+}
+.form-favorite {
+    margin: auto;
+    width: 30%;
+}
+.form-header {
+    background-color: #12B3AB;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-weight: 700;
+}
+.form-content {
+    background-color: #E7E2E4;
+    padding: 10px;
+   display: flex;
+   flex-direction: column;
+    
+}
+.form-item{
+    line-height: 20px;
+    display: flex;
+    justify-content:flex-start ;
+    margin-bottom: 10px;
+}
+.form-item label {
+    width: 30%;
+}
+.form-item select{
+    margin-top: 0px;
+    
+    height: 20px
+}
+.form-item input {
+    width: 30%;
+    height: 20px;
+    text-align: left;
+}
+
+.form-button button  {
+    background-color: orange ;
+    color: white;
+    margin: 10px  170px;
+    border: 0px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.form-footer {
+    background-color: #2C8C06;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    margin-bottom: 20px;
+}
+#price-tour {
+    flex: 1;
+    text-align: end;
+    color: orangered;
+}

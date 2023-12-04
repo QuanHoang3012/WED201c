@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <!-- Result : <input id="cal" type="" style="text-align: end;">
+        <br> <br>
+       <button onclick="append(7)">7</button>
+       <button onclick="append(8)">8</button>
+       <button onclick="append(9)">9</button>
+       <button onclick="append('+')">+</button>
+       <button onclick="calculate()">=</button>
+
+       <script>
+        let input = document.getElementById("cal")
+        function append(value){
+            input.value+=value
+        }
+        function calculate(){
+            input.value= eval(input.value)
+        }
+       </script> -->
+       Result : <input id="cal" type="" style="text-align: end;">
+        <br> <br>
+       <button class="button">7</button>
+       <button class="button">8</button>
+       <button class="button">9</button>
+       <button class="button">+</button> 
+       <button onclick="deleteAll()">C</button> 
+       <br> <br>
+       <button class="button">4</button>
+       <button class="button">5</button>
+       <button class="button">6</button>
+       <button class="button">-</button> 
+       <br> <br>
+       <button class="button">1</button>
+       <button class="button">2</button>
+       <button class="button">3</button>
+       <button class="button">/</button> 
+       <br> <br>
+       <button class="button">*</button>
+       <button class="button">.</button> 
+       <button class="button" >0</button> 
+       <button onclick="calculate()">=</button>
+       <script>
+        let input = document.getElementById("cal")
+            let buttons = document.getElementsByClassName("button")
+            for(let i=0;i<buttons.length;i++){
+                let button = buttons[i]
+                button.addEventListener("click",function onclick(params) {
+                   input.value+= button.innerHTML
+                })
+            }
+            function calculate(){
+            input.value= eval(input.value)
+        }
+            function deleteAll(){
+                input.value=""
+            }
+       </script>
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img {
+    width: 40%;
+    margin-left: 86px
+}
+.search button {
+    background-color: black;
+    color: white;
+}
+
+/* Banner */
+
+.banner img {
+    width: 100%;
+}
+
+/* Laptop */
+
+.best-seller h1 {
+    text-align: center;
+    color: red;
+}
+.laptop {
+    display: flex;
+    justify-content: space-between;
+}
+.laptop-img  {
+    border: 2px solid gray;
+    box-shadow: 2px 2px 2px 2px gray;
+    margin-left: 50px;
+}
+.laptop-detail {
+    border: 2px solid gray;
+    box-shadow: 2px 2px 2px 2px gray;
+    margin-right: 50px;
+    
+}
+.laptop-detail h2 {
+    color: blue;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.laptop-detail p {
+    margin-left: 25px;
+    border-bottom:2px solid gray;
+}
+
+/* Accessories */
+.accessories h1 {
+    text-align: center;
+    margin: 50px 0px;
+    color: red;
+}
+.product {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.accessories img {
+    width: 50%;
+}
+.items {
+    display: flex;
+    border: 2px solid gray;
+    box-shadow: 2px 2px 2px 2px gray;
+    width: 39%;
+}
+#ssd {
+    margin-left: 120px;
+}
+#mouse {
+    margin-right: 120px;
+}
+.footer {
+    background: #3F77C5;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 60px;
+}

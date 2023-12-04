@@ -1,0 +1,88 @@
+img{
+    width: 100%;
+}
+body {
+    border: 5px solid rgb(0, 242, 255) ;
+    border-bottom: 5px solid white;
+}
+
+.favorite-places h2 {
+    color: orange;
+    margin-top: 0px;
+    border-bottom: 8px solid rgb(0, 242, 255);
+    
+}
+.favorite-places img {
+    width: 30%;
+}
+.places {
+    display: flex;
+    margin-bottom: 30px;
+}
+.places p {
+    font-size: 28px;
+}
+
+/*  */
+
+.container h1{
+    text-align: center;
+    color: rgb(0, 242, 255);
+    font-weight: 700;
+    margin: 40px;
+}
+.hotel-img img {
+    width: 100%;
+}
+.hotel-img {
+    position: relative;
+   
+}
+
+.hotel-img h3 {
+    position: absolute;
+    bottom: -10px;
+    color: white;
+    width: 570px;
+    background-color: rgba(95, 92, 94,0.5);
+    text-align: center;
+    padding: 20px 0px;
+}
+
+/*  */
+
+#tour-price h2 {
+    text-align: center;
+    color: rgb(0, 242, 255);
+    font-weight: 700;
+}
+.table {
+    font-size: 20px;
+}
+.table th {
+    color: green;
+    text-align: center;
+}
+.table td {
+    color: orange;
+    text-align: center;
+}
+.footer {
+    text-align: center;
+    background-color: #0F9A93;
+    color: white;
+    padding: 20px;
+}
+
+@media screen and (max-width : 768px) {
+    .places p {
+        font-size: 13px;
+    }
+    .hotel-img h3 {
+        width: 100%;
+    }
+    .table {
+        font-size: 8px;
+    }
+   
+}

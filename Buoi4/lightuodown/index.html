@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="light">
+        <img  class="item"   src="https://www.w3schools.com/js/pic_bulboff.gif" alt="" >
+        <button onclick="lightUp()"  class="item1">On</button>
+        <button onclick="lightDown()" class="item2">Down</button>
+    </div>
+   <script>
+    let lightImage = document.getElementsByClassName("item")
+    function lightUp() {
+        lightImage[0].src ="https://www.w3schools.com/js/pic_bulbon.gif";
+    }
+    function lightDown() {
+        lightImage[0].src ="https://www.w3schools.com/js/pic_bulboff.gif";
+    }
+   </script>
+</body>
+</html>

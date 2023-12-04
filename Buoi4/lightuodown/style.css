@@ -1,0 +1,19 @@
+.light {
+    display: flex;
+    justify-content: center;
+}
+.item {
+    order :2 ;
+}
+.item1{
+    order : 1;
+    height: 20px;
+    width: 50px;
+    align-self: end;
+}
+.item2 {
+    order :3;
+    height: 20px;
+    width: 50px;
+    align-self: end;
+}

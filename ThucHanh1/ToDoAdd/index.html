@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>ToDo App</h1>
+    <input id="input" >
+    <button onclick="addItem()">Add</button>
+    <ul id="todoList">
+    </ul>
+    <p>sdsdsdsdsd</p>
+    <script>
+        let listToDoJSon = localStorage.getItem("toDo")
+        let listToDo = listToDoJSon ? JSON.parse(listToDoJSon) : []
+        let ul = document.getElementById("todoList")
+        for (let i=0;i<listToDo.length;i++){
+            let li = document.createElement("li")
+            li.innerHTML = listToDo[i]
+            ul.appendChild(li)
+        }
+
+       let add = document.getElementById("input")
+        
+        function addItem(params) {         
+            let result = add.value 
+            let list = document.createElement("li")
+            list.innerHTML=result 
+            ul.appendChild(list)
+            listToDo.push(result)
+            localStorage.setItem("toDo",JSON.stringify(listToDo))
+            add.value=""
+        }
+        
+            function myalert() {
+            alert("Welcome to GeeksforGeeks.\n " +
+                "It is the best portal for computer" +
+                "science enthusiasts!");
+        }
+        
+    </script>
+</body>
+</html>
