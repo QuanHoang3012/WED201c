@@ -1,0 +1,126 @@
+
+img{
+    width: 100%;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.header-logo img {
+    width: 70%;
+    height: 80%;
+    margin-top: 20px;
+
+}
+.header-title {
+   flex-basis: 30%;
+   text-align: center;
+   align-self: self-end;
+   margin-bottom: 10px;
+   color: red;
+   font-weight: bold;
+}
+.header-search {
+    flex-basis: 30%;
+    align-self: flex-end;
+}
+/* menu */
+#navigation-bar {
+    width: 100%;
+     display: flex;
+     justify-content: center;
+ }
+#navigation li {
+    align-self: center;
+}
+.navbar-nav {
+    align-self: center;
+} 
+.menu h2 {
+    text-align: center;
+    color: #0EC0C3;
+    margin: 50px 0px;
+    margin-bottom: 20px;
+}
+.motor-item img {
+    width: 70%;
+    margin: 5px;
+}
+/* best-seller */
+.best-seller h1 {
+    text-align: center;
+    color: #0EC0C3;
+    margin: 50px 0px;
+}
+.product-seller img {
+    width: 320px;
+    height: 350px;
+}
+.product-seller {
+    position: relative;
+}
+.product-seller h3 {
+    margin-left: 80px;
+    color: orange;
+}
+.product-seller p{
+    margin-left: 80px;
+    line-height: 30px;
+    
+}
+/* form */
+.store-infor h1 {
+    text-align: center;
+    color: #0EC0C3;
+    margin: 50px 0px;
+}
+#phattien img {
+    height: 414px;
+
+}
+.form-customer {
+    margin-top: 0px;
+}
+.footer {
+    background-color: #0EC0C3;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
+@media screen and (max-width : 768px) {
+    #navigation-bar {
+        width: 100%;
+    }
+    .header {
+        display: flex;
+       flex-direction: column;
+    }
+    .header-title {
+        align-self: center;
+        margin-bottom: 0px;
+    }
+    .header-logo{
+        align-self: center;
+    }
+    .header-logo img {
+        margin-top: 0px;
+       width: 80%;
+    }
+    .header-search {
+        width: 100%;
+    }
+    .motor-item img {
+        width: 100%;
+    }
+    .product-seller img{
+        text-align: center;
+        width: 100%;
+    }
+    .product-seller h3{
+        text-align: center;
+        margin-left: 0px;
+    }
+    
+    
+}
